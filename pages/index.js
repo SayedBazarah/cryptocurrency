@@ -1,5 +1,8 @@
-//components
+//NextJS Component
 
-export default function Home() {
-  return <div> Main - Home</div>;
+//Custom Components
+
+import Home from "../components/home";
+export default function HomePage() {
+  return <Home />;
 }
