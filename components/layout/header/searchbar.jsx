@@ -36,7 +36,7 @@ export default function SearchBar() {
         {userLogin ? (
           <Image src="/" alt="search icon" width={30} height={30} />
         ) : (
-          <Link href="Login">Login/Sign up</Link>
+          <Link href="/Login">Login/Sign up</Link>
         )}
       </div>
     </div>
