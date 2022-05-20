@@ -3,3 +3,11 @@
   grid-template-columns: 1fr 5fr;
   height: 100vh;
 }
+.pageContent {
+  background-color: #1c2237;
+  color: white;
+}
+.pageContent main {
+  width: 90%;
+  margin: 40px auto;
+}

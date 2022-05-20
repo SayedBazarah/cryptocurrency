@@ -18,14 +18,14 @@ function Layout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={Style.container}>
+      <div className={Style.container}>
         <Header />
         <div className={Style.pageContent}>
           <SearchBar />
-          {props.children}
+          <main>{props.children}</main>
           <Footer />
         </div>
-      </main>
+      </div>
     </>
   );
 }

@@ -1,0 +1,33 @@
+.container {
+}
+.container h2 {
+  font-size: 32px;
+}
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.slogan h1 {
+  font-size: 66px;
+  font-weight: 400;
+}
+.coinIconList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.coinIconList a {
+  cursor: pointer;
+}
+
+.statistices {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 100px 0;
+}

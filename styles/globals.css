@@ -10,8 +10,8 @@ body {
   margin: 0;
 }
 :root {
-  --primary-color: #333;
-  --hover-color: rgb(220, 220, 220);
+  --primary-color: #252d47;
+  --hover-color: #3c4564;
 }
 a {
   color: inherit;
